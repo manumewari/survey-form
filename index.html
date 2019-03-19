@@ -21,35 +21,35 @@
     <form id="survey-form" action="">
         <h1>Survey Form</h1>
         <div class="container">
-            <div class="row ">
-                <div class="col-sm col-label">
+            <div class="row">
+                <div class="col col-label">
                     <label id="name-label">Name: </label>
                 </div>
-                <div class="col-sm">
+                <div class="col-8">
                     <input type="text" id="name" class="form-control text-field" placeholder="Please enter name" required>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm col-label">
+                <div class="col col-label">
                     <label id="email-label">Email: </label>
                 </div>
-                <div class="col-sm">
+                <div class="col-8">
                     <input type="email" id="email" class="form-control text-field" placeholder="Please enter email address" required>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm col-label">
+                <div class="col col-label">
                     <label id="number-label">Age: </label>
                 </div>
-                <div class="col-sm">
+                <div class="col-8">
                     <input type="number" class="form-control text-field" id="number" min="10" max="60" placeholder="Please enter your age" required> <!--add validation-->
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm col-label">
+                <div class="col col-label">
                     <label id="city-label">City: </label>
                 </div>
-                <div class="col-sm">
+                <div class="col-8">
                     <select id="dropdown" name="City" class="form-control">
                         <option value="delhi">Delhi</option>
                         <option value="mumbai">Mumbai</option>
@@ -59,37 +59,55 @@
                 </div>
             </div>
             <div class="row align-content-start">
-                <div class="col-sm col-label">
+                <div class="col col-label">
                     <label id="gender-label">Gender: </label>
                 </div>
-                <div class="col-sm form-check form-check-inline">
-                    <input type="radio" name="gender" id="gender1" value="M" class="form-check-input"> <label class="form-check-label" for="gender1">Male</label>&nbsp;
-                    <input type="radio" name="gender" id="gender2" value="F" class="form-check-input"> <label class="form-check-label" for="gender2">Female</label>&nbsp;
-                    <input type="radio" name="gender" id="gender3" value="O" class="form-check-input"> <label class="form-check-label" for="gender3">Other</label>&nbsp;
+                <div class="col-8">
+                    <div class="form-check text-left">
+                        <input type="radio" name="gender" id="gender1" value="M" class="form-check-input">
+                        <label class="form-check-label" for="gender1">Female</label>
+                    </div>
+                    <div class="form-check text-left">
+                        <input type="radio" name="gender" id="gender2" value="F" class="form-check-input">
+                        <label class="form-check-label" for="gender2">Male</label>
+                    </div>
+                    <div class="form-check text-left">
+                        <input type="radio" name="gender" id="gender3" value="O" class="form-check-input">
+                        <label class="form-check-label" for="gender3">Other</label>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm col-label">
+                <div class="col col-label">
                     <label id="course-label">Mode Of Contact: </label>
                 </div>
-                <div class="col-sm form-check form-check-inline">
-                    <input type="checkbox" name="course" id="course1" value="html" class="form-check-input">&nbsp;<label class="form-check-label" for="course1">Call</label>&nbsp;
-                    <input type="checkbox" name="course" id="course2" value="css" class="form-check-input">&nbsp;<label class="form-check-label" for="course2">SMS</label>&nbsp;
-                        <input type="checkbox" name="course" id="course3" value="js" class="form-check-input">&nbsp;<label class="form-check-label" for="course3">Email</label>&nbsp;
+                <div class="col-8">
+                    <div class="form-check text-left">
+                        <input type="checkbox" name="course" id="course1" value="html" class="form-check-input">
+                        <label class="form-check-label" for="course1">Call</label>
+                    </div>
+                    <div class="form-check text-left">
+                    <input type="checkbox" name="course" id="course2" value="css" class="form-check-input">
+                        <label class="form-check-label" for="course2">SMS</label>
+                    </div>
+                    <div class="form-check text-left">
+                        <input type="checkbox" name="course" id="course3" value="js" class="form-check-input">
+                        <label class="form-check-label" for="course3">Email</label>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm col-label">
+                <div class="col col-label">
                     <label id="comments-label">Suggestions: </label>
                 </div>
-                <div class="col-sm">
+                <div class="col-8">
                     <textarea name="suggestions" rows="5" cols="30" class="form-control"
                               placeholder="Please give your suggestions for any improvement"></textarea>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col">
                     <button type="submit" class="btn btn-primary">Submit Details</button>
                 </div>
             </div>
@@ -98,7 +116,7 @@
 
 </div>
 
-<!--<footer id="page-footer">A Free code camp project by Manu Mewari</footer>-->
+<footer id="page-footer">A Free code camp project by Manu Mewari</footer>
 
 </body>
 </html>
