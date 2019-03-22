@@ -1,0 +1,36 @@
+
+.container {
+    background-color: lightseagreen;
+    margin: 2rem auto 2rem auto;
+    padding: 5%;
+}
+
+#main-container {
+    text-align: center;
+    padding: 1rem;
+    background-color: lightgray;
+}
+
+.row {
+    padding: 2%;
+}
+
+.col-label {
+    text-align: right;
+}
+
+.form-check-inline {
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+#page-footer {
+    color:white;
+    background-color:gray;
+    text-align: center
+}
+
+@media (max-width: 576px) {
+    .col-label{
+        text-align: left;
+    }
+}
