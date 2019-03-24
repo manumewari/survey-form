@@ -22,34 +22,38 @@
         <h1>Survey Form</h1>
         <div class="container">
             <div class="row">
-                <div class="col col-label">
+                <div class="col-4 col-label font-weight-bold">
                     <label id="name-label">Name: </label>
                 </div>
-                <div class="col-8">
+                <div class="w-100 next-row"></div>
+                <div class="col">
                     <input type="text" id="name" class="form-control text-field" placeholder="Please enter name" required>
                 </div>
             </div>
             <div class="row">
-                <div class="col col-label">
+                <div class="col-4 col-label font-weight-bold">
                     <label id="email-label">Email: </label>
                 </div>
-                <div class="col-8">
+                <div class="w-100 next-row"></div>
+                <div class="col">
                     <input type="email" id="email" class="form-control text-field" placeholder="Please enter email address" required>
                 </div>
             </div>
             <div class="row">
-                <div class="col col-label">
+                <div class="col-4 col-label font-weight-bold">
                     <label id="number-label">Age: </label>
                 </div>
-                <div class="col-8">
+                <div class="w-100 next-row"></div>
+                <div class="col">
                     <input type="number" class="form-control text-field" id="number" min="10" max="60" placeholder="Please enter your age" required> <!--add validation-->
                 </div>
             </div>
             <div class="row">
-                <div class="col col-label">
+                <div class="col-4 col-label font-weight-bold">
                     <label id="city-label">City: </label>
                 </div>
-                <div class="col-8">
+                <div class="w-100 next-row"></div>
+                <div class="col">
                     <select id="dropdown" name="City" class="form-control">
                         <option value="delhi">Delhi</option>
                         <option value="mumbai">Mumbai</option>
@@ -59,10 +63,11 @@
                 </div>
             </div>
             <div class="row align-content-start">
-                <div class="col col-label">
+                <div class="col-4 col-label font-weight-bold">
                     <label id="gender-label">Gender: </label>
                 </div>
-                <div class="col-8">
+                <div class="w-100 next-row"></div>
+                <div class="col">
                     <div class="form-check text-left">
                         <input type="radio" name="gender" id="gender1" value="M" class="form-check-input">
                         <label class="form-check-label" for="gender1">Female</label>
@@ -78,10 +83,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col col-label">
-                    <label id="course-label">Mode Of Contact: </label>
+                <div class="col-4 col-label font-weight-bold">
+                    <label id="course-label">Contact: </label>
                 </div>
-                <div class="col-8">
+                <div class="w-100 next-row"></div>
+                <div class="col">
                     <div class="form-check text-left">
                         <input type="checkbox" name="course" id="course1" value="html" class="form-check-input">
                         <label class="form-check-label" for="course1">Call</label>
@@ -97,10 +103,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col col-label">
+                <div class="col-4 col-label font-weight-bold">
                     <label id="comments-label">Suggestions: </label>
                 </div>
-                <div class="col-8">
+                <div class="w-100 next-row"></div>
+                <div class="col">
                     <textarea name="suggestions" rows="5" cols="30" class="form-control"
                               placeholder="Please give your suggestions for any improvement"></textarea>
                 </div>
