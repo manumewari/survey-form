@@ -29,18 +29,8 @@
     text-align: center
 }
 
-@media (min-width: 576px) {
-    .next-row {
-        display: none;
-    }
-}
-
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .col-label{
         text-align: left;
-    }
-
-    .next-row {
-        display: block;
     }
 }

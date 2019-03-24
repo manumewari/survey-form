@@ -2,17 +2,12 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Srisakdi|Caveat|Cabin Condensed|Gloria Hallelujah" rel="stylesheet" type="text/css">
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>Tribute Page</title>
 </head>
@@ -22,38 +17,34 @@
         <h1>Survey Form</h1>
         <div class="container">
             <div class="row">
-                <div class="col-4 col-label font-weight-bold">
+                <div class="col-md-4 col-label font-weight-bold">
                     <label id="name-label">Name: </label>
                 </div>
-                <div class="w-100 next-row"></div>
-                <div class="col">
+                <div class="col-md-8">
                     <input type="text" id="name" class="form-control text-field" placeholder="Please enter name" required>
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 col-label font-weight-bold">
+                <div class="col-md-4 col-label font-weight-bold">
                     <label id="email-label">Email: </label>
                 </div>
-                <div class="w-100 next-row"></div>
-                <div class="col">
+                <div class="col-md-8">
                     <input type="email" id="email" class="form-control text-field" placeholder="Please enter email address" required>
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 col-label font-weight-bold">
+                <div class="col-md-4 col-label font-weight-bold">
                     <label id="number-label">Age: </label>
                 </div>
-                <div class="w-100 next-row"></div>
-                <div class="col">
+                <div class="col-md-8">
                     <input type="number" class="form-control text-field" id="number" min="10" max="60" placeholder="Please enter your age" required> <!--add validation-->
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 col-label font-weight-bold">
+                <div class="col-md-4 col-label font-weight-bold">
                     <label id="city-label">City: </label>
                 </div>
-                <div class="w-100 next-row"></div>
-                <div class="col">
+                <div class="col-md-8">
                     <select id="dropdown" name="City" class="form-control">
                         <option value="delhi">Delhi</option>
                         <option value="mumbai">Mumbai</option>
@@ -63,11 +54,10 @@
                 </div>
             </div>
             <div class="row align-content-start">
-                <div class="col-4 col-label font-weight-bold">
+                <div class="col-md-4 col-label font-weight-bold">
                     <label id="gender-label">Gender: </label>
                 </div>
-                <div class="w-100 next-row"></div>
-                <div class="col">
+                <div class="col-md-8">
                     <div class="form-check text-left">
                         <input type="radio" name="gender" id="gender1" value="M" class="form-check-input">
                         <label class="form-check-label" for="gender1">Female</label>
@@ -83,11 +73,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 col-label font-weight-bold">
+                <div class="col-md-4 col-label font-weight-bold">
                     <label id="course-label">Contact: </label>
                 </div>
-                <div class="w-100 next-row"></div>
-                <div class="col">
+                <div class="col-md-8">
                     <div class="form-check text-left">
                         <input type="checkbox" name="course" id="course1" value="html" class="form-check-input">
                         <label class="form-check-label" for="course1">Call</label>
@@ -103,11 +92,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 col-label font-weight-bold">
+                <div class="col-md-4 col-label font-weight-bold">
                     <label id="comments-label">Suggestions: </label>
                 </div>
-                <div class="w-100 next-row"></div>
-                <div class="col">
+                <div class="col-md-8">
                     <textarea name="suggestions" rows="5" cols="30" class="form-control"
                               placeholder="Please give your suggestions for any improvement"></textarea>
                 </div>
